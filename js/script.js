@@ -1,7 +1,7 @@
 // età utente e km da percorrere
 const UserAge = parseFloat(prompt ('inserisci età'))
 const NumKm = parseFloat(prompt ('inserisci numero km'))
-const TicketPrice = NumKm * 0.21
+let TicketPrice = NumKm * 0.21
 
 if (UserAge <= 18){
   TicketPrice = TicketPrice * 0.8
@@ -11,3 +11,4 @@ if (UserAge <= 18){
 else if (UserAge >= 65){
   TicketPrice = TicketPrice * 0.6
 }
+10
