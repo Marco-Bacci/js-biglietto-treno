@@ -12,4 +12,4 @@ else if (UserAge >= 65){
   TicketPrice = TicketPrice * 0.6
 }
 
-console.log(`final price ${TicketPrice}`)
+console.log(`final price € ${TicketPrice.toFixed(2)}`)
