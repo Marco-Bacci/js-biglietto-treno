@@ -11,4 +11,5 @@ if (UserAge <= 18){
 else if (UserAge >= 65){
   TicketPrice = TicketPrice * 0.6
 }
-10
+
+console.log(`final price ${TicketPrice}`)
